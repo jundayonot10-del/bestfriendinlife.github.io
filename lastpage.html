@@ -9,20 +9,22 @@
 
     <style>
       .last-page-images {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        margin-top: 50px;
-        padding-bottom: 50px;
-      }
+  position: absolute;
+  top: 250px;
+  left: calc(50% + 220px);
 
-      .last-page-images img {
-        width: 300px;
-        height: auto;
-        border-radius: 15px;
-      }
+  display: flex;
+  gap: 20px;
+
+  z-index: 10;
+}
+
+.last-page-images img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+}
     </style>
   </head>
 
